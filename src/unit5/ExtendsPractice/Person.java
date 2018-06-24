@@ -1,4 +1,4 @@
-package unit5;
+package unit5.ExtendsPractice;
 
 /**
  * 包含一个或多个抽象方法的类本身必须被声明为抽象的，抽象方法还可以包含具体的数据和具体的方法
