@@ -1,4 +1,4 @@
-package unit5.ReflectivePractice;
+package unit5.reflectivePractice;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;

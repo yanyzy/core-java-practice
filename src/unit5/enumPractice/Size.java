@@ -1,4 +1,4 @@
-package unit5.EnumPractice;
+package unit5.enumPractice;
 
 import java.util.Arrays;
 

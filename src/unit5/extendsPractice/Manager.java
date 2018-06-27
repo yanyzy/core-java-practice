@@ -1,4 +1,4 @@
-package unit5.ExtendsPractice;
+package unit5.extendsPractice;
 
 final class Manager extends Employee {
 

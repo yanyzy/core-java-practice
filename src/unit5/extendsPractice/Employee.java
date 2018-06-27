@@ -1,8 +1,10 @@
-package unit5.ExtendsPractice;
+package unit5.extendsPractice;
 
 public class Employee {
 
     private String name;
+
+    private int age;
 
     String getName() {
         return name;
@@ -20,5 +22,10 @@ public class Employee {
         this.age = age;
     }
 
-    private int age;
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }
+
+
 }

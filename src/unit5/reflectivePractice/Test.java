@@ -1,7 +1,7 @@
-package unit5.ReflectivePractice;
+package unit5.reflectivePractice;
 
 
-import unit5.ExtendsPractice.Employee;
+import unit5.extendsPractice.Employee;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;

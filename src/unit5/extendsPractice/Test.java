@@ -1,10 +1,10 @@
-package unit5.ExtendsPractice;
+package unit5.extendsPractice;
 
 import java.util.Objects;
 
 public class Test {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws CloneNotSupportedException {
         testBoxing();
     }
 

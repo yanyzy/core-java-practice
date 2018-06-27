@@ -1,4 +1,4 @@
-package unit5.ExtendsPractice;
+package unit5.extendsPractice;
 
 /**
  * 子类方法必须实现父类的所有抽象方法，否则子类必须声明为抽象类
