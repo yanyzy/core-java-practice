@@ -14,10 +14,10 @@ public class TimerTest {
 
     public static void main(String[] args) {
         ActionListener timerPrinter = new TimerPrinter();
-        Timer t = new Timer(1000,timerPrinter);
+        Timer t = new Timer(1000, timerPrinter);
 
         t.start();
-        JOptionPane.showMessageDialog(null,"quit?");
+        JOptionPane.showMessageDialog(null, "quit?");
         System.exit(0);
 
     }
@@ -27,11 +27,11 @@ public class TimerTest {
 /**
  * 实现ActionListener类，定义任务
  */
-class TimerPrinter implements ActionListener{
+class TimerPrinter implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        System.out.println("the time is "+LocalDateTime.now());
+        System.out.println("the time is " + LocalDateTime.now());
         Toolkit.getDefaultToolkit().beep();
     }
 }
