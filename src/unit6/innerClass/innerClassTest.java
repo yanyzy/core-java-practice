@@ -13,14 +13,14 @@ import java.time.LocalDateTime;
 public class innerClassTest {
 
     public static void main(String[] args) {
-        TalkingClock talkingClock = new TalkingClock(10000,true);
+        TalkingClock talkingClock = new TalkingClock(10000, true);
         talkingClock.start();
-        JOptionPane.showMessageDialog(null,"quit?");
+        JOptionPane.showMessageDialog(null, "quit?");
         System.exit(0);
     }
 }
 
-class TalkingClock{
+class TalkingClock {
 
     private int interval;
 
@@ -31,9 +31,9 @@ class TalkingClock{
         this.beep = beep;
     }
 
-    public void start(){
+    public void start() {
         ActionListener actionListener = new TimerPrinter();
-        Timer timer = new Timer(interval,actionListener);
+        Timer timer = new Timer(interval, actionListener);
         timer.start();
 
     }
