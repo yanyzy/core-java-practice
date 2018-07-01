@@ -5,6 +5,7 @@ import java.util.logging.Logger;
 
 /**
  * 打印递归的堆栈情况
+ *
  * @author zhyee
  * @date 2018/6/30 下午1:46
  */
@@ -20,7 +21,7 @@ public class StackTraceTest {
         int r;
         if (n <= 1) r = 1;
         else r = n * factorial(n - 1);
-        System.out.println("return "+r);
+        System.out.println("return " + r);
         Logger.getGlobal().info("测试-----");
         return r;
 
