@@ -1,5 +1,6 @@
 package unit11;
 
+
 import java.util.Scanner;
 import java.util.logging.Logger;
 
@@ -32,5 +33,6 @@ public class StackTraceTest {
         System.out.println("enter n : ");
         int n = in.nextInt();
         factorial(n);
+
     }
 }
